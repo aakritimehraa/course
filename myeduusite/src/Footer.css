@@ -1,0 +1,21 @@
+.footer img{
+    height: 10rem;
+    width: 10rem;
+}
+.footer p{
+    width: 10rem;
+}
+.footerr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.footer div{
+    margin: 10px;
+}
+div .two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

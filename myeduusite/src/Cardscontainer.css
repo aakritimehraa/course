@@ -1,0 +1,12 @@
+.cardscontainer{
+    display: flex;
+    justify-content: center;
+
+}
+@media (max-width:1200px){
+
+.cardscontainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+}

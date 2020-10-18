@@ -1,0 +1,28 @@
+.cardboxxx{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+.cardboxx{
+
+    width: 100%;
+    margin-top: 3rem;
+}
+.cardboxx h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    margin-left: 1rem;
+}
+.list-group{
+    margin: 2rem;
+}
+@media (max-width:500px){
+.list-group{
+    margin-right: 0rem;
+    font-size: 0.8rem;
+
+}
+}

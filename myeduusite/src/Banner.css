@@ -1,0 +1,112 @@
+.banner{
+width: 100%;
+padding: 10px;
+display: flex;
+justify-content:space-around;
+align-items: center;
+border-bottom: 1px solid black;
+margin-top: 100px;
+}
+form .inputt{
+width: 70%;
+height: 40px;
+}
+
+.imagee img{
+width: 80%;}
+
+.bannerr{
+    width: 100%;
+    padding: 20px;
+}
+.bannerr h2{
+    font-size: 40px;
+    text-transform: uppercase;
+  
+}
+.bannerr p{
+    font-size: 20px;
+}
+.imagee div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 80px;
+    font-size: 0.8rem;
+
+}
+.bannerr button{
+    margin-top: 10px;
+}
+.imagee div {
+    font-weight: 800;
+    font-size: 20px;
+}
+.button{
+    margin-top: 100%;
+}
+form{
+    margin-top: 70px;
+}
+label{
+    font-size: 20px;
+}
+.button{
+    font-size: 0.8rem;
+}
+@media (max-width:1000px) {
+
+img{
+    width: 80%;
+    
+}
+.imagee div{
+    margin-right: 0;
+}
+.bannerr{
+    margin-top: 10px;
+}
+.bannerr h2{
+    font-size: 1.3rem;
+}.bannerr p{
+    font-size: 0.8rem;
+}
+.bannerr form{
+    margin-top: 0;
+}
+.imagee div{
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+
+@media (max-width:500px){
+    .banner{
+        flex-wrap: wrap;
+    }
+    .banner img{
+        
+        width: 100%;
+        object-fit: contain;
+        height: 300px;
+        margin-left: -40px;
+  
+    }
+    .banner .imagee{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .banner .imagee div p{
+        padding: 10px;
+      
+    }
+    .bannerr{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+}
+}
